@@ -111,6 +111,7 @@ for i in range(30):
             voxel = Voxel(position = (j,zaxis2,i))
 
 player = FirstPersonController()
+print("O Szuster ta do meu lado")
 sky = Sky()
 hand = Hand()
 app.run()
